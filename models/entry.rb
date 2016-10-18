@@ -1,4 +1,6 @@
 class Entry
+  #SRP: To wrap around 3 pieces of 'entry' data and provide an interface to
+  #access said data
   attr_accessor :name, :phone_number, :email
 
   def initialize(name, phone_number, email)

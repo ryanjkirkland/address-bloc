@@ -1,6 +1,10 @@
 require_relative '../models/address_book.rb'
 
 class MenuController
+  # Display visual cues for the user to interact with the app
+  # Provides user with feedback based on input
+  # Allows user to navigate through various states in the app
+
   attr_reader :address_book
 
   def initialize
